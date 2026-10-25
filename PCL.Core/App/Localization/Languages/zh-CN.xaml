@@ -1515,7 +1515,7 @@
     <sys:String x:Key="Launch.Error.Title">启动失败</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.HidePrompt">若要永久隐藏此提示，请输入正确的 PCL CE 开发组织名称。</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.InputTitle">输入 PCL CE 开发组织名称</sys:String>
-    <sys:String x:Key="Launch.Right.CommunityHint.Message">你正在使用 PCL CE（PCL 社区版）！此版本为独立开发和维护，与原版维护路线不同，体验有所出入。&#xA;&#xA;如果你是意外下载到了 PCL CE ，我们十分建议您下载原版 PCL 长期使用，此发行版本对新手用户体验可能不友好。&#xA;此外， PCL CE 的问题请向 PCL CE 的仓库提交 Issue，不要向官方仓库反馈 PCL CE 的问题哦！</sys:String>
+    <sys:String x:Key="Launch.Right.CommunityHint.Message">你正在使用由 yuanze31 修改的 PCL CE（PCL 社区版）！此版本为独立开发和维护，与 PCL 维护路线不同，但尽量跟随 PCL CE 更新，不保证使用体验的一致性。&#xA;&#xA;修改内容：&#xA;Minecraft 下载限制&#xA;离线登录限制&#xA;&#xA;请确保使用时遵守所在国家/地区的法律法规，由于不当使用造成的法律问题与本人无关！&#xA;&#xA;除非你清楚自己在做什么，否则不要使用此版本&#xA;此外，此修改版的问题请勿向 PCL 或 PCL CE 的仓库提交 Issue！</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.Title">PCL CE 提示</sys:String>
     <sys:String x:Key="Launch.Right.CommunityHint.WrongInput">不太对哦……</sys:String>
     <sys:String x:Key="Launch.Right.Log.Title">启动日志</sys:String>
