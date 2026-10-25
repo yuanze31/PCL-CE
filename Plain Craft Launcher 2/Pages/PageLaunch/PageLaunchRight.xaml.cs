@@ -39,13 +39,16 @@ public partial class PageLaunchRight : IRefreshable
             ? Visibility.Visible
             : Visibility.Collapsed;
         LabHint1.Text = Lang.Text("Launch.Right.CommunityHint.Message");
-        LabHint2.Text = Lang.Text("Launch.Right.CommunityHint.HidePrompt");
+        // LabHint2.Text = Lang.Text("Launch.Right.CommunityHint.HidePrompt");
         _EnsureHomepageLiveWatcher();
     }
 
     // 暂时关闭快照版提示
     private void BtnHintClose_Click(object sender, EventArgs e)
     {
+        ModAnimation.AniDispose(PanHint, true);
+        States.Hint.CEMessage = false;
+        return;
         var input = ModMain.MyMsgBoxInput(Lang.Text("Launch.Right.CommunityHint.InputTitle"));
         if (string.IsNullOrWhiteSpace(input))
             return;
