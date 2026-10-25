@@ -181,6 +181,7 @@ public static class ProfileUi
 
     public static bool CanCreateOtherProfile()
     {
+        return true;
 #if DEBUG || DEBUGCI
         return true;
 #else

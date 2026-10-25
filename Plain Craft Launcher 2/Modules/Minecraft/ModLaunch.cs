@@ -132,7 +132,7 @@ public static class ModLaunch
             }, "Donate");
         }
 #endif
-        
+        return;
         #if DEBUG || DEBUGCI
         return;
         #endif
