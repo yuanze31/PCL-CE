@@ -35,6 +35,7 @@ public static class UpdateManager
     
     public static UpdateEnums.VersionStatus GetVersionStatus()
     {
+        return UpdateEnums.VersionStatus.Latest;
         try
         {
             if (IsCurrentVersionBeta && (int)Config.Update.UpdateChannel != 1)
@@ -237,6 +238,8 @@ public static class UpdateManager
 
     private static void LoadOnlineInfo()
     {
+        ModBase.Log("修改版内置更新检查与公告拉取已禁用");
+        return;
         ScheduleBasedOnConfig();
         AnnouncementService.Load();
     }
